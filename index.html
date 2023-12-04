@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Tic-Tac-Toe!</title>
+</head>
+
+<body>
+    <main>
+        <section id="TicTacToe" class="row--box">
+            <section id="ScoreBoard" class="column--box">
+                <h2 id="TotalWins">Total</h2>
+                <h1 id="CurrentWinner">Winner</h1>
+                <div id="ScoreBoard--Wins" class="column--box">
+                    <span id="X-WinCounter--Span" class="win--counter row--box">
+                        <img src="" alt="" class="win--counter__icon">
+                        <h3 id="X-WinCounter" class="win--counter__number">XWin</h3>
+                    </span>
+                    <span id="O-WinCounter--Span" class="win--counter row--box">
+                        <img src="" alt="" class="win--counter__icon">
+                        <h3 id="O-WinCounter" class="win--counter__number">OWin</h3>
+                    </span>
+                    <span id="Draw-WinCounter--Span" class="win--counter row--box">
+                        <img src="" alt="" class="win--counter__icon">
+                        <h3 id="Draw-WinCounter" class="win--counter__number">Draws</h3>
+                    </span>
+                </div>
+            </section>
+            <section id="GameGrid" class="grid--box">
+                <div id="GameGrid--1" class="game--grid__container"></div>
+                <div id="GameGrid--2" class="game--grid__container"></div>
+                <div id="GameGrid--3" class="game--grid__container"></div>
+                <div id="GameGrid--4" class="game--grid__container"></div>
+                <div id="GameGrid--5" class="game--grid__container"></div>
+                <div id="GameGrid--6" class="game--grid__container"></div>
+                <div id="GameGrid--7" class="game--grid__container"></div>
+                <div id="GameGrid--8" class="game--grid__container"></div>
+                <div id="GameGrid--9" class="game--grid__container"></div>
+            </section>
+            <section id="ActionSideBar" class="column--box">
+                <button id="PlayButton" class="main--button button--style">Play</button>
+                <button id="ResetButton" class="secondary--button button--style">Reset</button>
+            </section>
+        </section>
+    </main>
+
+</body>
+
+</html>
